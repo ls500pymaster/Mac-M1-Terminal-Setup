@@ -20,13 +20,36 @@ brew help
 
 ![](https://github.com/ls500pymaster/Mac-M1-Terminal-Setup/blob/main/img/iterm2.jpeg?raw=true)
 
+**iTerm2** is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.
+
 #### Download iTerms2 from [here](https://iterm2.com/downloads.html "here")
 
 **Basic installation using Brew**
 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    
+# ZSH
 
-**iTerm2** is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.
+![](https://github.com/ls500pymaster/Mac-M1-Terminal-Setup/blob/main/img/zsh_term.png?raw=true)
+
+#### Download iTerms2 from [here](https://iterm2.com/downloads.html "here")
+
+**ZSH** is a shell designed for interactive use and it is also a powerful scripting language.
+You can install it
+
+    brew install zsh
+Check 
+
+    zsh --version
+
+If your shell is not ZSH, run the following
+
+    chsh -s /bin/zsh
+
+Then restart your iTerm2 or open a new tab in iTerm2 and check it.
+
+    echo $SHELL
+
 
 # Oh My Zsh
 
