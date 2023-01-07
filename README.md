@@ -1,4 +1,4 @@
-### Mac M1 Terminal Setup | iTerm2 + Oh My Zsh
+### Mac M1 Terminal Setup | Brew + iTerm2 + ZSH + Oh My Zsh
 
 # Homebrew
 
