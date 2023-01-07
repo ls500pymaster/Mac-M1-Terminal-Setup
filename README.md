@@ -55,17 +55,20 @@ Then restart your iTerm2 or open a new tab in iTerm2 and check it.
 
 #### Download Oh My Zsh from [here](https://github.com/ohmyzsh/ohmyzsh "here")
 
-**Oh My Zsh** is an open source, community-driven framework for managing your zsh configuration. Sounds boring. Let's try again. Oh My Zsh will not make you a 10x developer...but you may feel like one.
+**Oh My Zsh** is an open-source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes.
 
 **Basic installation**
 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     
+Update Oh My Zsh
 
-# iTerm2
+    omz update
 
-![](https://iterm2.com/img/logo2x.jpg)
+Oh-My-Zsh may overwrites ~/.zshrc, you need to add the path to brew. You need to add it before plugins. Use a text editor (Vim/VSCode/TextEdit):
 
-#### Download iTerms2 from [here](https://iterm2.com/downloads.html "here")
+    xport PATH=/opt/homebrew/bin:$PATH
+    
 
-##Headers (Underline)
+    
+
