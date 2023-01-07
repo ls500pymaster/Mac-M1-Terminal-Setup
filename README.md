@@ -32,8 +32,6 @@ brew help
 
 ![](https://github.com/ls500pymaster/Mac-M1-Terminal-Setup/blob/main/img/zsh_term.png?raw=true)
 
-#### Download iTerms2 from [here](https://iterm2.com/downloads.html "here")
-
 **ZSH** is a shell designed for interactive use and it is also a powerful scripting language.
 You can install it
 
