@@ -2,7 +2,7 @@
 
 # Homebrew
 
-![](https://iterm2.com/img/logo2x.jpg)
+![](https://github.com/ls500pymaster/Mac-M1-Terminal-Setup/blob/main/img/homebrew.jpeg?raw=true)
 
 #### Download Homebrew from [here](https://brew.sh "here")
 You need to have Homebrew installed. Homebrew requires Command Line Tools for Xcode. But if you don't have it, the installation will install it for you.
