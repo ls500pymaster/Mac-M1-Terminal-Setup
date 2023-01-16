@@ -70,5 +70,33 @@ Oh-My-Zsh may overwrites ~/.zshrc, you need to add the path to brew. You need to
     xport PATH=/opt/homebrew/bin:$PATH
     
 
+# 🚀 Starship
+
+![](https://github.com/ls500pymaster/Mac-M1-Terminal-Setup/blob/main/img/starship.png?raw=true)
+
+#### Download Starship from [here](https://github.com/starship/starship "here")
+
+**Starship**  is a cross-shell prompt build using rust language. This is a very minimal and blazingly fast terminal prompt. The key reason for its popularity is its customizability. You can easily customize it using a TOML config file.
+
+**Basic installation**
+
+    brew install starship
     
+Add the following to your .zshrc
+
+     eval "$(starship init zsh)"
+	 
+	 
+Create config file for starship
+
+    mkdir -p ~/.config && touch ~/.config/starship.toml
+
+My starship.toml you can find [here](https://github.com/ls500pymaster/Mac-M1-Terminal-Setup/blob/main/img/starship.toml "here").
+
+
+![](https://github.com/ls500pymaster/Mac-M1-Terminal-Setup/blob/main/img/my_starship.png?raw=true)
+
+    
+
+
 
